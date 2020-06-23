@@ -43,10 +43,10 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
 
-
     # 可添加需要的第三方登录
     'allauth.socialaccount.providers.github',
     'allauth.socialaccount.providers.weibo',
+    'allauth.socialaccount.providers.baidu',
 
     'password_reset',
     'article',
