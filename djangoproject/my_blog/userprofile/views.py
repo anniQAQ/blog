@@ -33,7 +33,7 @@ def user_login(request):
     elif request.method == 'GET':
         user_login_form = UserLoginForm()
         context = {'form': user_login_form}
-        return render(request, 'userprofile/login.html', context)
+        return render(request, 'account/login.html', context)
     else:
         return HttpResponse("请使用GET或POST请求数据")
 
