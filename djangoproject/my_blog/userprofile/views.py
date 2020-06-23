@@ -55,7 +55,7 @@ def user_register(request):
             new_user.save()
             # 保存好数据后立即登录并返回博客列表页面
             login(request, new_user)
-            return redirect("")
+            return redirect("http://101.132.102.185/")
         else:
             return HttpResponse("注册表单输入有误。请重新输入~")
     elif request.method == 'GET':
