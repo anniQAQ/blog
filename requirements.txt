@@ -17,7 +17,6 @@ idna==2.9
 importlib-metadata==1.6.1
 jsonfield==3.0.0
 Markdown==3.2.2
-mysqlclient==1.4.6
 oauthlib==3.1.0
 pilkit==2.0
 Pillow==7.1.2
